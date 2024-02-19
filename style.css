@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+
+body, html {
+	margin: 0px;
+	padding: 0px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+body, .main {
+	display: flex;
+	flex-direction: column;
+	line-height: 1.5;
+}
+
+
+h1 {
+	font-family: "Archivo Black", sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 50pt;
+}
+
+h2 {
+	font-family: "Archivo Black", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 30pt;
+}
+
+h3 {
+	font-family: "Archivo Black", sans-serif;
+	font-weight: 300;
+	font-style: normal;
+	font-size: 20pt;
+}
+
+h4 {
+	font-family: "Archivo Black", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 15pt;
+}
+
+p, li, .navLink {
+	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 13pt;
+}
+
+
+/*this just centers the whole navbar, and add vertical padding*/
+.navWrapper {
+	display: flex;
+	justify-content: center;
+	padding-top: 5vh;
+	padding-bottom: 5vh;
+/*	background-color: pink;*/
+	background-color: #5D737E;
+	overflow: hidden;
+}
+
+/*this will put each item in row and space between them*/
+.navBar {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	width: 50vw;
+}
+
+.navLink a{
+	color: white;
+}
+
+/*center the header vertically + horizontally*/
+.header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 50vh;
+	background-color: lightblue;
+/*	background-image: ;*/
+}
+
+
+.textBlock {
+	width: 100%;
+	font-size: 15pt;
+	background-color: pink;
+	padding: 10px 10px 10px 10px;
+}
+
+
+.quote {
+	padding: 50px 200px 50px 200px;
+	text-align: center;
+/*	font-family: "Lato", sans-serif;
+	font-weight: 500;*/
+	font-style: italic;
+/*	font-size: 30px;
+	background-color: #5D737E;
+	color: white;*/
+}
+
+/*--------------------------------------------*/
+
+/*center everything in the facts section (heading + fact boxes)*/
+.facts {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+/*	height: 30vh;*/
+	background-color: lightgreen;
+}
+
+/* everything in container (the boxes) */
+.factBoxes {
+	display: flex;
+	flex-direction: row;
+	background-color: yellow;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	gap: 50px;	/* between the items */
+}
+
+
+
+/*center everything in the types section*/
+.types {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgreen;
+}
+
+.typeRows {
+	background-color: lightskyblue;
+	display: flex;
+	flex-direction: column;
+	gap: 5vh;
+}
+
+.twoColRow {
+	background-color: yellow;
+	display: flex;
+	flex-direction: row;
+	gap: 10vw;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+
+
+/*center everything in the myths section*/
+.myths {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgreen;
+}
+
+.mythBoxes {
+	display: flex;
+	flex-direction: row;
+	background-color: yellow;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	gap: 50px;	/* between the items */
+}
+
+/*--------------------------------------------*/
+
+
+.resources {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgreen;
+}
+
+.header2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 10vh;
+	background-color: lightblue;
+}
+
+.resourceBoxes {
+	display: flex;
+	flex-direction: column;
+	background-color: yellow;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	gap: 30px;	/* between the items */
+}
+
+
+.campaigns {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgreen;
+}
+
+.campaignBoxes {
+	display: flex;
+	flex-direction: row;
+	background-color: yellow;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	gap: 30px;	/* between the items */
+}
+
+.textBlock img {
+	/*width: 100%;
+	aspect-ratio: 2/1.3;*/
+}
+
+
+/*--------------------------------------------*/
+
+
+
+.tips {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: lightgreen;
+}
+
+.tipBoxes {
+	display: flex;
+	flex-direction: row;
+	background-color: yellow;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	gap: 30px;	/* between the items */
+}
+
+.listAndPrompts {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color: lightgreen;
+	padding-left: 5vw;
+	padding-right: 5vw;
+}
+
+.checklist {
+	display: flex;
+	flex-direction: column;
+	background-color: yellow;
+}
+
+.prompts {
+	display: flex;
+	flex-direction: column;
+	background-color: yellow;
+}
+
+.list {
+	line-height: 2.0;
+}
+
+.blocktext7 {
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+	box-sizing: border-box;
+	border-style: solid;
+	border-color: #5D737E;
+/*	vertical-align: text-top;*/
+	margin-bottom: 10px;
+}
+
+
+
+
+/*--------------------------------------------*/
+
+
+.comments{
+/*	font-family: "Lato", sans-serif;
+	font-weight: 400;
+	font-style: normal;*/
+	font-size: 12px;
+	color: gray;
+	text-decoration: none;
+}
